@@ -1,0 +1,7 @@
+# framework:
+#     messenger:
+#         buses:
+#             message_bus: 
+#                 # Other configurations...
+#         routing:
+#             'App\Message\UserCreatedEvent': 'App\MessageHandler\NotificationHandler'
