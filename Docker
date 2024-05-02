@@ -1,0 +1,5 @@
+# Build the "users" service Docker image
+docker build -t users-service ./users
+
+# Build the "notifications" service Docker image
+docker build -t notifications-service ./notifications
